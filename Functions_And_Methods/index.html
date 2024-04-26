@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="Functions_And_Methods.js"></script>
+<body>
+    <h1 style="color:blue;text-decoration: underline;text-align: center;" >LESSON 5. Functions And Methods</h1>
+    <div style="text-align: center;">
+        <ul style="text-align: left;list-style-position: outside;list-style: decimal-leading-zero;display: inline-block;">
+            <li>FUNCTIONS</li>
+            <li>METHODS</li>
+        </ul>
+        <h3>Functions are defined as a block of code which performs its individual/specific tasks whenever called.</h3>
+        <h4>>>Functions parameters are like local variables of functions more precisely "Block Scope"</h4>
+        <h4 style="text-decoration: underline;">Syntax</h4>
+        <h4 style="font-style: italic;color: cadetblue;">1.  function func(parameter){
+            return statement;
+        }
+        </h4>
+        <h4 style="font-style: italic;color: cadetblue;">2.  const func =(prompt)=>{
+            return statement;
+        }
+        </h4>
+        <h4>>>Higher Order Functions/Methods : Such functions which either takes another functions as a parameter "OR" return another functions.</h4>
+        <h4 style="font-weight: bolder;text-decoration: underline;">SOME MORE ARRAY METHODS</h4>
+        <H5 style="font-style: italic; color: red;">1. forEach() Method</H5>
+        <h5>Returns every element of the particular array</h5>
+        <h5>example: arr.forEach((val)=>{
+            return val*val;
+        })
+        </h5>
+        <h5 style="font-style: italic; color: red;">2. map() Method</h5>
+        <h5>Creates a new array of elements according to the function </h5>
+        <h5>example: let new_array = arr.map((val)=>{
+            return val%10;
+        })
+        </h5>
+        <h5 style="font-style: italic; color: red;">3. filter() Method</h5>
+        <h5>Creates a new array of elements that give true for a condition/filter</h5>
+        <h5>example: let new_array = arr.filter((val)=>{
+            return val%10==0;
+        })
+        </h5>
+        <h5 style="font-style: italic; color: red;">4. reduce() Method</h5>
+        <h5>Performs some operations and reduces the array to the single value. It returns that single value</h5>
+        <h5>example (find the smallest element in an array): console.log(array.reduce((prev,curr)=>{
+            return prev < curr ? curr : prev;
+        }))
+        </h5>
+        <!-- <h4>console.log(marks);</h4>
+        <h4>output : (3) [78,45,99]</h4> -->
+    </div> 
+</body>
+</html>
